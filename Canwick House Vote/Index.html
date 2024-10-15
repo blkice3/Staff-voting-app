@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Voting System</title>
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+
+    <h1>Vote for Your Favorite Staff</h1>
+
+    <div class="profiles-container">
+        <div class="profile" data-name="Aaron">
+            <img src="../images/Aaron.PNG"Aaron's Profile Photo">
+            <h2>Aaron</h2>
+            <button class="vote-btn" onclick="castVote('Aaron')">Vote for Aaron</button>
+        </div>
+
+        <div class="profile" data-name="Alex">
+            <img src="../images/Alex.PNG"Alex's Profile Photo">
+            <h2>Alex</h2>
+            <button class="vote-btn" onclick="castVote('Alex')">Vote for Alex</button>
+        </div>
+
+        <div class="profile" data-name="Elijah">
+            <img src="../images/Elijah.JPEG" alt="Elijah's Profile Photo">
+            <h2>Elijah</h2>
+            <button class="vote-btn" onclick="castVote('Elijah')">Vote for Elijah</button>
+        </div>
+
+        <div class="profile" data-name="Evaldas">
+            <img src="../images/Evaldas.PNG"Evaldas's Profile Photo">
+            <h2>Evaldas</h2>
+            <button class="vote-btn" onclick="castVote('Evaldas')">Vote for Evaldas</button>
+        </div>
+    </div>
+    <div class="profiles-container">
+        <div class="profile" data-name="Funmi">
+            <img src="../images/Funmi.PNG"Funmi's Profile Photo">
+            <h2>Funmi</h2>
+            <button class="vote-btn" onclick="castVote('Funmi')">Vote for Funmi</button>
+        </div>
+
+        <div class="profile" data-name="Irina">
+            <img src="../images/Irina.PNG" alt="Irina's Profile Photo">
+            <h2>Irina</h2>
+            <button class="vote-btn" onclick="castVote('Irina')">Vote for Irina</button>
+        </div>
+
+        <div class="profile" data-name="Magda">
+            <img src="../images/Magda.PNG"Magda's Profile Photo">
+            <h2>Magda</h2>
+            <button class="vote-btn" onclick="castVote('Magda')">Vote for Magda</button>
+        </div>
+
+        <div class="profile" data-name="Mambi">
+            <img src="../images/Mambi.JPEG"Mambi's Profile Photo">
+            <h2>Mambi</h2>
+            <button class="vote-btn" onclick="castVote('Mambi')">Vote for Mambi</button>
+        </div>
+    </div>
+    <div class="profiles-container">
+        <div class="profile" data-name="Mary">
+            <img src="../images/Mary.PNG" alt="Mary's Profile Photo">
+            <h2>Mary</h2>
+            <button class="vote-btn" onclick="castVote('Mary')">Vote for Mary</button>
+        </div>
+
+        <div class="profile" data-name="Miriam">
+            <img src="../images/Miriam.JPEG"Miriam's Profile Photo">
+            <h2>Miriam</h2>
+            <button class="vote-btn" onclick="castVote('Miriam')">Vote for Miriam</button>
+        </div>
+
+        <div class="profile" data-name="Nelson">
+            <img src="../images/Nelson.PNG"Nelson's Profile Photo">
+            <h2>Nelson</h2>
+            <button class="vote-btn" onclick="castVote('Nelson')">Vote for Nelson</button>
+        </div>
+
+        <div class="profile" data-name="Obi">
+            <img src="../images/Obi.JPEG" alt="Obi's Profile Photo">
+            <h2>Obi</h2>
+            <button class="vote-btn" onclick="castVote('Obi')">Vote for Obi</button>
+        </div>
+    </div>
+    <div class="profiles-container">
+        <div class="profile" data-name="Rosa">
+            <img src="../images/Rosa.JPEG"Rosa's Profile Photo">
+            <h2>Rosa</h2>
+            <button class="vote-btn" onclick="castVote('Rosa')">Vote for Rosa</button>
+        </div>
+
+        <div class="profile" data-name="Sarah">
+            <img src="../images/Sarah.PNG"Sarah's Profile Photo">
+            <h2>Sarah</h2>
+            <button class="vote-btn" onclick="castVote('Sarah')">Vote for Sarah</button>
+        </div>
+
+        <div class="profile" data-name="Stephanie">
+            <img src="../images/Stephanie.PNG" alt="Stephanie's Profile Photo">
+            <h2>Stephanie</h2>
+            <button class="vote-btn" onclick="castVote('Stephanie')">Vote for Stephanie</button>
+        </div>
+
+        <div class="profile" data-name="Tasmina">
+            <img src="../images/Tasmina.PNG"Tasmina's Profile Photo">
+            <h2>Tasmina</h2>
+            <button class="vote-btn" onclick="castVote('Tasmina')">Vote for Tasmina</button>
+        </div>
+    </div>
+    <div class="profiles-container">
+        <div class="profile" data-name="Zoe">
+            <img src="../images/Zoe.PNG"Alex's Profile Photo">
+            <h2>Zoe</h2>
+            <button class="vote-btn" onclick="castVote('Zoe')">Vote for Zoe</button>
+        </div>
+        
+    </div>
+
+    <div class="statistics">
+        <h2>Profile with the Most Votes</h2>
+        <p id="most-voted-profile">No votes yet.</p>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
